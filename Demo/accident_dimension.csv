@@ -1,0 +1,52 @@
+Accident_surogate_key,Accident_ID,Environment,Road_Surface,Traffic_Control,Visibility,Impact_Type
+100,1,Clear,Wet,Traffic signal,Daylight,Rear end
+101,2,Clear,Dry,Traffic signal,Daylight,Turning movement
+102,3,Clear,Dry,Traffic signal,Daylight,Rear end
+103,4,Snow,Loose snow,Traffic signal,Daylight,Rear end
+104,5,Rain,Wet,Traffic signal,Daylight,Rear end
+105,6,Snow,Loose snow,Traffic signal,Dusk,Turning movement
+106,7,Snow,Packed snow,Traffic signal,Dark,Rear end
+107,8,Snow,Ice,Yield sign,Daylight,SMV other
+108,9,Clear,Dry,No control,Dark,SMV other
+109,10,Clear,Dry,No control,Daylight,SMV other
+110,11,Rain,Wet,No control,Daylight,SMV other
+111,12,Clear,Dry,No control,Daylight,SMV other
+112,13,Clear,Dry,No control,Dark,SMV other
+113,14,Clear,Dry,Stop sign,Daylight,SMV other
+114,15,Clear,Dry,Stop sign,Daylight,Rear end
+115,16,Clear,Wet,Stop sign,Dusk,Turning movement
+116,17,Snow,Loose snow,Stop sign,Dark,SMV other
+117,18,Clear,Wet,Stop sign,Daylight,Angle
+118,19,Clear,Dry,Stop sign,Daylight,Angle
+119,20,Clear,Dry,Stop sign,Daylight,Angle
+120,21,Clear,Dry,No control,Daylight,Rear end
+121,22,Clear,Wet,No control,Dark,SMV other
+122,23,Clear,Dry,No control,Daylight,Other
+123,24,Clear,Dry,No control,Dark,Rear end
+124,25,Clear,Dry,No control,Daylight,SMV other
+125,26,Clear,Dry,No control,Daylight,SMV other
+126,27,Clear,Dry,No control,Daylight,SMV other
+127,28,Clear,Dry,Stop sign,Daylight,Angle
+128,29,Rain,Wet,No control,Dusk,SMV unattended vehicle
+129,30,Clear,Dry,Stop sign,Daylight,Angle
+130,31,Clear,Dry,Traffic signal,Daylight,Rear end
+131,32,Snow,Packed snow,Stop sign,Daylight,Rear end
+132,33,Clear,Dry,No control,Daylight,Other
+133,34,Rain,Wet,No control,Dawn,Angle
+134,35,Rain,Wet,Stop sign,Daylight,Angle
+135,36,Clear,Wet,Stop sign,Daylight,Angle
+136,37,Clear,Dry,No control,Daylight,Rear end
+137,38,Rain,Wet,No control,Daylight,Rear end
+138,39,Clear,Dry,Stop sign,Dark,SMV other
+139,40,Clear,Dry,Traffic signal,Daylight,SMV other
+140,41,Rain,Wet,Traffic signal,Daylight,Rear end
+141,42,Clear,Dry,Traffic signal,Daylight,Other
+142,43,Rain,Wet,Stop sign,Daylight,Rear end
+143,44,Clear,Dry,Stop sign,Daylight,Angle
+144,45,Snow,Loose snow,Stop sign,Unknown,SMV unattended vehicle
+145,46,Clear,Dry,No control,Unknown,SMV unattended vehicle
+146,47,Clear,Dry,No control,Unknown,SMV unattended vehicle
+147,48,Clear,Ice,No control,Dark,SMV unattended vehicle
+148,49,Clear,Dry,Stop sign,Daylight,Turning movement
+149,50,Clear,Packed snow,Stop sign,Daylight,Angle
+150,51,Rain,Wet,Stop sign,Dark,SMV other
