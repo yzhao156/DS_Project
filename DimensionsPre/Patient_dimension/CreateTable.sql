@@ -8,8 +8,8 @@ Client_Gender varchar,
 Case_AcquisitionInfo varchar,
 Outbreak_Related varchar,
 primary key (surrogate_key)
-)
+);
 
 
 
-\COPY Date_dimension FROM '/Users/yi/Desktop/DS_Phase2/DimensionsPre/Patient_dimension/Patient_dimension.csv' DELIMITER ',' CSV HEADER;
+\COPY Patient_dimension FROM '/Users/yi/Desktop/DS_Phase2/DimensionsPre/Patient_dimension/Patient_dimension.csv' DELIMITER ',' CSV HEADER;

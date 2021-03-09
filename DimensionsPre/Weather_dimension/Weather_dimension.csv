@@ -1,4 +1,4 @@
-surrogate_key,Longitude (x),Latitude (y),Station Name,Climate ID,Date/Time,Year,Month,Day,Max Temp (°C),Min Temp (°C),Mean Temp (°C),Heat Deg Days (°C),Cool Deg Days (°C),Total Rain (mm),Total Rain Flag,Total Snow (cm),Total Snow Flag,Total Precip (mm),Snow on Grnd (cm),Snow on Grnd Flag
+surrogate_key,LongitudeX,LatitudeY,StationName,ClimateID,DateTime,Year,Month,Day,MaxTempInC,MinTempInC,MeanTempInC,HeatDegDaysInC,CoolDegDaysInC,TotalRainInmm,TotalRainFlag,TotalSnowIncm,TotalSnowFlag,TotalPrecipInmm,SnowonGrndIncm,SnowonGrndFlag
 0,-75.67,45.32,OTTAWA INTL A,6106001,2020-11-01,2020,11,1,7.8,-0.7,3.6,14.4,0.0,2.2,Yes,0.0,No,2.2,0.0,No
 1,-75.67,45.32,OTTAWA INTL A,6106001,2020-11-02,2020,11,2,2.0,-2.5,-0.3,18.3,0.0,0.0,No,3.7,Yes,2.4,0.0,No
 2,-75.67,45.32,OTTAWA INTL A,6106001,2020-11-03,2020,11,3,0.3,-4.1,-1.9,19.9,0.0,0.0,No,0.0,No,0.0,3.0,Yes

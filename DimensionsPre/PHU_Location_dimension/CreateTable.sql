@@ -12,8 +12,8 @@ Reporting_PHU_Website varchar,
 Reporting_PHU_Latitude float,
 Reporting_PHU_Longitude float,
 primary key (surrogate_key)
-)
+);
 
 
 
-\COPY Date_dimension FROM '/Users/yi/Desktop/DS_Phase2/DimensionsPre/PHU_Location_dimension/PHU_Location_dimension.csv' DELIMITER ',' CSV HEADER;
+\COPY PHU_Location_dimension FROM '/Users/yi/Desktop/DS_Phase2/DimensionsPre/PHU_Location_dimension/PHU_Location_dimension.csv' DELIMITER ',' CSV HEADER;

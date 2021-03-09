@@ -9,13 +9,13 @@ sub_region_1 varchar,
 sub_region_2 varchar,
 place_id varchar,
 date varchar,
-retail_and_recreation_percent_change_from_baseline int,
-grocery_and_pharmacy_percent_change_from_baseline int,
-parks_percent_change_from_baseline int,
-transit_stations_percent_change_from_baseline int,
-workplaces_percent_change_from_baseline int,
-residential_percent_change_from_baseline int,
+retail_and_recreation_percent_change_from_baseline float,
+grocery_and_pharmacy_percent_change_from_baseline float,
+parks_percent_change_from_baseline float,
+transit_stations_percent_change_from_baseline float,
+workplaces_percent_change_from_baseline float,
+residential_percent_change_from_baseline float,
 primary key (surrogate_key)
-)
+);
 
-\COPY Date_dimension FROM '/Users/yi/Desktop/DS_Phase2/DimensionsPre/Mobility_dimension/Mobility_dimension.csv' DELIMITER ',' CSV HEADER;
+\COPY Mobility_dimension FROM '/Users/yi/Desktop/DS_Phase2/DimensionsPre/Mobility_dimension/Mobility_dimension.csv' DELIMITER ',' CSV HEADER;
