@@ -1,468 +1,468 @@
 surrogate_key,Reporting_PHU,Reporting_PHU_id,Title,Description,Keyword_1,Keyword_2,Start-date,End-date
-0,Algoma Public Health Unit,2226,Title-Prevent,"Green – Prevent 
+0,Algoma Public Health Unit,2226,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-12-25
-1,Algoma Public Health Unit,2226,Title-Lockdown,"ONTARIO REGULATION 11/21 
+1,Algoma Public Health Unit,2226,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-2,Algoma Public Health Unit,2226,Title-Protect,"""Yellow – Protect 
+2,Algoma Public Health Unit,2226,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2021-02-16,2021-03-14
-3,Brant County Health Unit,2227,Title-Protect,"""Yellow – Protect 
+3,Brant County Health Unit,2227,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-15
-4,Brant County Health Unit,2227,Title-Restrict,"Orange – Restrict 
+4,Brant County Health Unit,2227,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-16,2020-12-20
-5,Brant County Health Unit,2227,Title-Control,"Red – Control 
+5,Brant County Health Unit,2227,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-12-21,2020-12-25
-6,Brant County Health Unit,2227,Title-Lockdown,"ONTARIO REGULATION 11/21 
+6,Brant County Health Unit,2227,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-7,Brant County Health Unit,2227,Title-Restrict,"Orange – Restrict 
+7,Brant County Health Unit,2227,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-02-16,2021-03-14
-8,Chatham-Kent Health Unit,2240,Title-Prevent,"Green – Prevent 
+8,Chatham-Kent Health Unit,2240,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-22
-9,Chatham-Kent Health Unit,2240,Title-Protect,"""Yellow – Protect 
+9,Chatham-Kent Health Unit,2240,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-23,2020-12-25
-10,Chatham-Kent Health Unit,2240,Title-Lockdown,"ONTARIO REGULATION 11/21 
+10,Chatham-Kent Health Unit,2240,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-11,Chatham-Kent Health Unit,2240,Title-Control,"Red – Control 
+11,Chatham-Kent Health Unit,2240,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-02-28
-12,Chatham-Kent Health Unit,2240,Title-Restrict,"Orange – Restrict 
+12,Chatham-Kent Health Unit,2240,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-03-01,2021-03-14
-13,Durham Region Health Department,2230,Title-Protect,"""Yellow – Protect 
+13,Durham Region Health Department,2230,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-15
-14,Durham Region Health Department,2230,Title-Restrict,"Orange – Restrict 
+14,Durham Region Health Department,2230,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-16,2020-11-22
-15,Durham Region Health Department,2230,Title-Control,"Red – Control 
+15,Durham Region Health Department,2230,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-11-23,2020-12-25
-16,Durham Region Health Department,2230,Title-Lockdown,"ONTARIO REGULATION 11/21 
+16,Durham Region Health Department,2230,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-17,Durham Region Health Department,2230,Title-Control,"Red – Control 
+17,Durham Region Health Department,2230,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-03-14
-18,Eastern Ontario Health Unit,2258,Title-Protect,"""Yellow – Protect 
+18,Eastern Ontario Health Unit,2258,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-15
-19,Eastern Ontario Health Unit,2258,Title-Restrict,"Orange – Restrict 
+19,Eastern Ontario Health Unit,2258,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-16,2020-11-22
-20,Eastern Ontario Health Unit,2258,Title-Protect,"""Yellow – Protect 
+20,Eastern Ontario Health Unit,2258,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-23,2020-12-13
-21,Eastern Ontario Health Unit,2258,Title-Restrict,"Orange – Restrict 
+21,Eastern Ontario Health Unit,2258,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-12-14,2020-12-25
-22,Eastern Ontario Health Unit,2258,Title-Lockdown,"ONTARIO REGULATION 11/21 
+22,Eastern Ontario Health Unit,2258,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-23,Eastern Ontario Health Unit,2258,Title-Restrict,"Orange – Restrict 
+23,Eastern Ontario Health Unit,2258,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-02-16,2021-03-14
-24,Grey Bruce Health Unit,2233,Title-Prevent,"Green – Prevent 
+24,Grey Bruce Health Unit,2233,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-22
-25,Grey Bruce Health Unit,2233,Title-Protect,"""Yellow – Protect 
+25,Grey Bruce Health Unit,2233,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-23,2020-12-25
-26,Grey Bruce Health Unit,2233,Title-Lockdown,"ONTARIO REGULATION 11/21 
+26,Grey Bruce Health Unit,2233,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-27,Grey Bruce Health Unit,2233,Title-Protect,"""Yellow – Protect 
+27,Grey Bruce Health Unit,2233,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2021-02-16,2021-02-28
-28,Grey Bruce Health Unit,2233,Title-Prevent,"Green – Prevent 
+28,Grey Bruce Health Unit,2233,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2021-03-01,2021-03-14
-29,Haldimand-Norfolk Health Unit,2234,Title-Protect,"""Yellow – Protect 
+29,Haldimand-Norfolk Health Unit,2234,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-29
-30,Haldimand-Norfolk Health Unit,2234,Title-Restrict,"Orange – Restrict 
+30,Haldimand-Norfolk Health Unit,2234,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-30,2020-12-25
-31,Haldimand-Norfolk Health Unit,2234,Title-Lockdown,"ONTARIO REGULATION 11/21 
+31,Haldimand-Norfolk Health Unit,2234,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-32,Haldimand-Norfolk Health Unit,2234,Title-Restrict,"Orange – Restrict 
+32,Haldimand-Norfolk Health Unit,2234,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-02-16,2021-02-28
-33,Haldimand-Norfolk Health Unit,2234,Title-Protect,"""Yellow – Protect 
+33,Haldimand-Norfolk Health Unit,2234,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2021-03-01,2021-03-07
-34,Haldimand-Norfolk Health Unit,2234,Title-Restrict,"Orange – Restrict 
+34,Haldimand-Norfolk Health Unit,2234,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-03-08,2021-03-21
-35,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Title-Prevent,"Green – Prevent 
+35,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-12-06
-36,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Title-Protect,"""Yellow – Protect 
+36,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-12-07,2020-12-25
-37,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Title-Lockdown,"ONTARIO REGULATION 11/21 
+37,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-38,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Title-Restrict,"Orange – Restrict 
+38,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-02-16,2021-03-07
-39,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Title-Protect,"""Yellow – Protect 
+39,"Haliburton, Kawartha, Pine Ridge District Health Unit",2235,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2021-03-08,2021-03-21
-40,Halton Region Health Department,2236,Title-Protect,"""Yellow – Protect 
+40,Halton Region Health Department,2236,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-15
-41,Halton Region Health Department,2236,Title-Control,"Red – Control 
+41,Halton Region Health Department,2236,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-11-16,2020-12-25
-42,Halton Region Health Department,2236,Title-Lockdown,"ONTARIO REGULATION 11/21 
+42,Halton Region Health Department,2236,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-43,Halton Region Health Department,2236,Title-Control,"Red – Control 
+43,Halton Region Health Department,2236,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-03-14
-44,Hamilton Public Health Services,2237,Title-Protect,"""Yellow – Protect 
+44,Hamilton Public Health Services,2237,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-15
-45,Hamilton Public Health Services,2237,Title-Control,"Red – Control 
+45,Hamilton Public Health Services,2237,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-11-16,2020-12-20
-46,Hamilton Public Health Services,2237,Title-Lockdown,"Grey – Lockdown 
+46,Hamilton Public Health Services,2237,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2020-12-21,2020-12-25
-47,Hamilton Public Health Services,2237,Title-Lockdown,"ONTARIO REGULATION 11/21 
+47,Hamilton Public Health Services,2237,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-48,Hamilton Public Health Services,2237,Title-Control,"Red – Control 
+48,Hamilton Public Health Services,2237,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-03-14
-49,Hastings and Prince Edward Counties Health Unit,2238,Title-Prevent,"Green – Prevent 
+49,Hastings and Prince Edward Counties Health Unit,2238,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-29
-50,Hastings and Prince Edward Counties Health Unit,2238,Title-Protect,"""Yellow – Protect 
+50,Hastings and Prince Edward Counties Health Unit,2238,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-30,2020-12-25
-51,Hastings and Prince Edward Counties Health Unit,2238,Title-Lockdown,"ONTARIO REGULATION 11/21 
+51,Hastings and Prince Edward Counties Health Unit,2238,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-09
-52,Hastings and Prince Edward Counties Health Unit,2238,Title-Prevent,"Green – Prevent 
+52,Hastings and Prince Edward Counties Health Unit,2238,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2021-02-10,2021-03-14
-53,Huron Perth District Health Unit,5183,Title-Prevent,"Green – Prevent 
+53,Huron Perth District Health Unit,5183,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-15
-54,Huron Perth District Health Unit,5183,Title-Protect,"""Yellow – Protect 
+54,Huron Perth District Health Unit,5183,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-16,2020-11-22
-55,Huron Perth District Health Unit,5183,Title-Restrict,"Orange – Restrict 
+55,Huron Perth District Health Unit,5183,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-23,2020-12-25
-56,Huron Perth District Health Unit,5183,Title-Lockdown,"ONTARIO REGULATION 11/21 
+56,Huron Perth District Health Unit,5183,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-57,Huron Perth District Health Unit,5183,Title-Restrict,"Orange – Restrict 
+57,Huron Perth District Health Unit,5183,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-02-16,2021-02-28
-58,Huron Perth District Health Unit,5183,Title-Protect,"""Yellow – Protect 
+58,Huron Perth District Health Unit,5183,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2021-03-01,2021-03-14
-59,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Title-Prevent,"Green – Prevent 
+59,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-22
-60,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Title-Protect,"""Yellow – Protect 
+60,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-23,2020-12-20
-61,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Title-Restrict,"Orange – Restrict 
+61,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-12-21,2020-12-25
-62,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Title-Lockdown,"ONTARIO REGULATION 11/21 
+62,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-09
-63,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Title-Prevent,"Green – Prevent 
+63,"Kingston, Frontenac and Lennox & Addington Public Health",2241,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2021-02-10,2021-03-14
-64,Lambton Public Health,2242,Title-Prevent,"Green – Prevent 
+64,Lambton Public Health,2242,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-29
-65,Lambton Public Health,2242,Title-Protect,"""Yellow – Protect 
+65,Lambton Public Health,2242,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-30,2020-12-25
-66,Lambton Public Health,2242,Title-Lockdown,"ONTARIO REGULATION 11/21 
+66,Lambton Public Health,2242,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-67,Lambton Public Health,2242,Title-Restrict,"Orange – Restrict 
+67,Lambton Public Health,2242,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-02-16,2021-02-21
-68,Lambton Public Health,2242,Title-Control,"Red – Control 
+68,Lambton Public Health,2242,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-22,2021-03-14
-69,"Leeds, Grenville and Lanark District Health Unit",2243,Title-Prevent,"Green – Prevent 
+69,"Leeds, Grenville and Lanark District Health Unit",2243,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-12-13
-70,"Leeds, Grenville and Lanark District Health Unit",2243,Title-Protect,"""Yellow – Protect 
+70,"Leeds, Grenville and Lanark District Health Unit",2243,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-12-14,2020-12-25
-71,"Leeds, Grenville and Lanark District Health Unit",2243,Title-Lockdown,"ONTARIO REGULATION 11/21 
+71,"Leeds, Grenville and Lanark District Health Unit",2243,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-72,"Leeds, Grenville and Lanark District Health Unit",2243,Title-Prevent,"Green – Prevent 
+72,"Leeds, Grenville and Lanark District Health Unit",2243,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2021-02-16,2021-03-14
-73,Middlesex-London Health Unit,2244,Title-Prevent,"Green – Prevent 
+73,Middlesex-London Health Unit,2244,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-15
-74,Middlesex-London Health Unit,2244,Title-Protect,"""Yellow – Protect 
+74,Middlesex-London Health Unit,2244,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-16,2020-12-06
-75,Middlesex-London Health Unit,2244,Title-Restrict,"Orange – Restrict 
+75,Middlesex-London Health Unit,2244,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-12-07,2020-12-13
-76,Middlesex-London Health Unit,2244,Title-Control,"Red – Control 
+76,Middlesex-London Health Unit,2244,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-12-14,2020-12-25
-77,Middlesex-London Health Unit,2244,Title-Lockdown,"ONTARIO REGULATION 11/21 
+77,Middlesex-London Health Unit,2244,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-78,Middlesex-London Health Unit,2244,Title-Control,"Red – Control 
+78,Middlesex-London Health Unit,2244,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-02-28
-79,Middlesex-London Health Unit,2244,Title-Restrict,"Orange – Restrict 
+79,Middlesex-London Health Unit,2244,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-03-01,2021-03-14
-80,Niagara Region Public Health Department,2246,Title-Protect,"""Yellow – Protect 
+80,Niagara Region Public Health Department,2246,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-15
-81,Niagara Region Public Health Department,2246,Title-Restrict,"Orange – Restrict 
+81,Niagara Region Public Health Department,2246,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-16,2020-12-20
-82,Niagara Region Public Health Department,2246,Title-Control,"Red – Control 
+82,Niagara Region Public Health Department,2246,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-12-21,2020-12-25
-83,Niagara Region Public Health Department,2246,Title-Lockdown,"ONTARIO REGULATION 11/21 
+83,Niagara Region Public Health Department,2246,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-84,Niagara Region Public Health Department,2246,Title-Lockdown,"Grey – Lockdown 
+84,Niagara Region Public Health Department,2246,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2021-02-16,2021-02-28
-85,Niagara Region Public Health Department,2246,Title-Control,"Red – Control 
+85,Niagara Region Public Health Department,2246,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-03-01,2021-03-14
-86,North Bay Parry Sound District Health Unit,2247,Title-Prevent,"Green – Prevent 
+86,North Bay Parry Sound District Health Unit,2247,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-12-25
-87,North Bay Parry Sound District Health Unit,2247,Title-Lockdown,"ONTARIO REGULATION 11/21 
+87,North Bay Parry Sound District Health Unit,2247,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-03-07
-88,North Bay Parry Sound District Health Unit,2247,Title-Lockdown,"Grey – Lockdown 
+88,North Bay Parry Sound District Health Unit,2247,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2020-03-08,2021-03-21
-89,Northwestern Health Unit,2249,Title-Prevent,"Green – Prevent 
+89,Northwestern Health Unit,2249,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-29
-90,Northwestern Health Unit,2249,Title-Protect,"""Yellow – Protect 
+90,Northwestern Health Unit,2249,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-30,2020-12-25
-91,Northwestern Health Unit,2249,Title-Lockdown,"ONTARIO REGULATION 11/21 
+91,Northwestern Health Unit,2249,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-92,Northwestern Health Unit,2249,Title-Protect,"""Yellow – Protect 
+92,Northwestern Health Unit,2249,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2021-02-16,2021-03-14
-93,Ottawa Public Health,2251,Title-Restrict,"Orange – Restrict 
+93,Ottawa Public Health,2251,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-07,2020-12-25
-94,Ottawa Public Health,2251,Title-Lockdown,"ONTARIO REGULATION 11/21 
+94,Ottawa Public Health,2251,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-95,Ottawa Public Health,2251,Title-Restrict,"Orange – Restrict 
+95,Ottawa Public Health,2251,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-02-16,2021-03-14
-96,Peel Public Health,2253,Title-Control,"Red – Control 
+96,Peel Public Health,2253,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-11-07,2020-11-22
-97,Peel Public Health,2253,Title-Lockdown,"Grey – Lockdown 
+97,Peel Public Health,2253,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2020-11-23,2020-12-25
-98,Peel Public Health,2253,Title-Lockdown,"ONTARIO REGULATION 11/21 
+98,Peel Public Health,2253,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-03-07
-99,Peel Public Health,2253,Title-Lockdown,"Grey – Lockdown 
+99,Peel Public Health,2253,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2020-03-08,2021-03-21
-100,Peterborough Public Health,2255,Title-Prevent,"Green – Prevent 
+100,Peterborough Public Health,2255,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-22
-101,Peterborough Public Health,2255,Title-Protect,"""Yellow – Protect 
+101,Peterborough Public Health,2255,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-23,2020-12-25
-102,Peterborough Public Health,2255,Title-Lockdown,"ONTARIO REGULATION 11/21 
+102,Peterborough Public Health,2255,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-103,Peterborough Public Health,2255,Title-Protect,"""Yellow – Protect 
+103,Peterborough Public Health,2255,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2021-02-16,2021-03-07
-104,Peterborough Public Health,2255,Title-Control,"Red – Control 
+104,Peterborough Public Health,2255,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-03-08,2021-03-21
-105,Porcupine Health Unit,2256,Title-Prevent,"Green – Prevent 
+105,Porcupine Health Unit,2256,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-12-25
-106,Porcupine Health Unit,2256,Title-Lockdown,"ONTARIO REGULATION 11/21 
+106,Porcupine Health Unit,2256,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-107,Porcupine Health Unit,2256,Title-Restrict,"Orange – Restrict 
+107,Porcupine Health Unit,2256,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-02-16,2021-03-14
-108,"Region of Waterloo, Public Health",2265,Title-Protect,"""Yellow – Protect 
+108,"Region of Waterloo, Public Health",2265,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-15
-109,"Region of Waterloo, Public Health",2265,Title-Restrict,"Orange – Restrict 
+109,"Region of Waterloo, Public Health",2265,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-16,2020-11-22
-110,"Region of Waterloo, Public Health",2265,Title-Control,"Red – Control 
+110,"Region of Waterloo, Public Health",2265,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-11-23,2020-12-25
-111,"Region of Waterloo, Public Health",2265,Title-Lockdown,"ONTARIO REGULATION 11/21 
+111,"Region of Waterloo, Public Health",2265,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-112,"Region of Waterloo, Public Health",2265,Title-Control,"Red – Control 
+112,"Region of Waterloo, Public Health",2265,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-03-14
-113,Renfrew County and District Health Unit,2257,Title-Prevent,"Green – Prevent 
+113,Renfrew County and District Health Unit,2257,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-12-25
-114,Renfrew County and District Health Unit,2257,Title-Lockdown,"ONTARIO REGULATION 11/21 
+114,Renfrew County and District Health Unit,2257,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-09
-115,Renfrew County and District Health Unit,2257,Title-Prevent,"Green – Prevent 
+115,Renfrew County and District Health Unit,2257,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2021-02-10,2021-03-07
-116,Renfrew County and District Health Unit,2257,Title-Protect,"""Yellow – Protect 
+116,Renfrew County and District Health Unit,2257,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2021-03-08,2021-03-21
-117,Simcoe Muskoka District Health Unit,2260,Title-Protect,"""Yellow – Protect 
+117,Simcoe Muskoka District Health Unit,2260,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-22
-118,Simcoe Muskoka District Health Unit,2260,Title-Restrict,"Orange – Restrict 
+118,Simcoe Muskoka District Health Unit,2260,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-23,2020-12-13
-119,Simcoe Muskoka District Health Unit,2260,Title-Control,"Red – Control 
+119,Simcoe Muskoka District Health Unit,2260,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-12-14,2020-12-25
-120,Simcoe Muskoka District Health Unit,2260,Title-Lockdown,"ONTARIO REGULATION 11/21 
+120,Simcoe Muskoka District Health Unit,2260,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-121,Simcoe Muskoka District Health Unit,2260,Title-Control,"Red – Control 
+121,Simcoe Muskoka District Health Unit,2260,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-02-28
-122,Simcoe Muskoka District Health Unit,2260,Title-Lockdown,"Grey – Lockdown 
+122,Simcoe Muskoka District Health Unit,2260,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2021-03-01,2021-03-07
-123,Simcoe Muskoka District Health Unit,2260,Title-Control,"Red – Control 
+123,Simcoe Muskoka District Health Unit,2260,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-03-08,2021-03-21
-124,Southwestern Public Health,4913,Title-Prevent,"Green – Prevent 
+124,Southwestern Public Health,4913,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-15
-125,Southwestern Public Health,4913,Title-Protect,"""Yellow – Protect 
+125,Southwestern Public Health,4913,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-16,2020-11-22
-126,Southwestern Public Health,4913,Title-Restrict,"Orange – Restrict 
+126,Southwestern Public Health,4913,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-23,2020-12-25
-127,Southwestern Public Health,4913,Title-Lockdown,"ONTARIO REGULATION 11/21 
+127,Southwestern Public Health,4913,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-128,Southwestern Public Health,4913,Title-Control,"Red – Control 
+128,Southwestern Public Health,4913,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-02-28
-129,Southwestern Public Health,4913,Title-Restrict,"Orange – Restrict 
+129,Southwestern Public Health,4913,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-03-01,2021-03-14
-130,Sudbury & District Health Unit,2261,Title-Prevent,"Green – Prevent 
+130,Sudbury & District Health Unit,2261,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-15
-131,Sudbury & District Health Unit,2261,Title-Protect,"""Yellow – Protect 
+131,Sudbury & District Health Unit,2261,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-16,2020-12-20
-132,Sudbury & District Health Unit,2261,Title-Prevent,"Green – Prevent 
+132,Sudbury & District Health Unit,2261,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-12-21,2020-12-25
-133,Sudbury & District Health Unit,2261,Title-Lockdown,"ONTARIO REGULATION 11/21 
+133,Sudbury & District Health Unit,2261,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-134,Sudbury & District Health Unit,2261,Title-Restrict,"Orange – Restrict 
+134,Sudbury & District Health Unit,2261,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-02-16,2021-03-07
-135,Sudbury & District Health Unit,2261,Title-Control,"Red – Control 
+135,Sudbury & District Health Unit,2261,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-03-08,2021-03-21
-136,Thunder Bay District Health Unit,2262,Title-Prevent,"Green – Prevent 
+136,Thunder Bay District Health Unit,2262,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-22
-137,Thunder Bay District Health Unit,2262,Title-Protect,"""Yellow – Protect 
+137,Thunder Bay District Health Unit,2262,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-23,2020-12-06
-138,Thunder Bay District Health Unit,2262,Title-Restrict,"Orange – Restrict 
+138,Thunder Bay District Health Unit,2262,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-12-07,2020-12-25
-139,Thunder Bay District Health Unit,2262,Title-Lockdown,"ONTARIO REGULATION 11/21 
+139,Thunder Bay District Health Unit,2262,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-140,Thunder Bay District Health Unit,2262,Title-Control,"Red – Control 
+140,Thunder Bay District Health Unit,2262,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-02-28
-141,Thunder Bay District Health Unit,2262,Title-Lockdown,"Grey – Lockdown 
+141,Thunder Bay District Health Unit,2262,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2021-03-01,2021-03-15
-142,Timiskaming Health Unit,2263,Title-Prevent,"Green – Prevent 
+142,Timiskaming Health Unit,2263,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-12-20
-143,Timiskaming Health Unit,2263,Title-Protect,"""Yellow – Protect 
+143,Timiskaming Health Unit,2263,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-12-21,2020-12-25
-144,Timiskaming Health Unit,2263,Title-Lockdown,"ONTARIO REGULATION 11/21 
+144,Timiskaming Health Unit,2263,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-145,Timiskaming Health Unit,2263,Title-Prevent,"Green – Prevent 
+145,Timiskaming Health Unit,2263,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2021-02-16,2021-03-07
-146,Timiskaming Health Unit,2263,Title-Restrict,"Orange – Restrict 
+146,Timiskaming Health Unit,2263,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2021-03-08,2021-03-21
-147,Toronto Public Health,3895,Title-Else,Description,Public health measures and advice,Other,2020-11-07,2020-11-15
-148,Toronto Public Health,3895,Title-Control,"Red – Control 
+147,Toronto Public Health,3895,Else,Description,Public health measures and advice,Other,2020-11-07,2020-11-15
+148,Toronto Public Health,3895,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-11-16,2020-11-22
-149,Toronto Public Health,3895,Title-Lockdown,"Grey – Lockdown 
+149,Toronto Public Health,3895,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2020-11-23,2020-12-25
-150,Toronto Public Health,3895,Title-Lockdown,"ONTARIO REGULATION 11/21 
+150,Toronto Public Health,3895,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-03-07
-151,Toronto Public Health,3895,Title-Lockdown,"Grey – Lockdown 
+151,Toronto Public Health,3895,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2021-03-08,2021-03-21
-152,Wellington-Dufferin-Guelph Public Health,2266,Title-Protect,"""Yellow – Protect 
+152,Wellington-Dufferin-Guelph Public Health,2266,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-07,2020-11-15
-153,Wellington-Dufferin-Guelph Public Health,2266,Title-Restrict,"Orange – Restrict 
+153,Wellington-Dufferin-Guelph Public Health,2266,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-16,2020-12-13
-154,Wellington-Dufferin-Guelph Public Health,2266,Title-Control,"Red – Control 
+154,Wellington-Dufferin-Guelph Public Health,2266,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-12-14,2020-12-25
-155,Wellington-Dufferin-Guelph Public Health,2266,Title-Lockdown,"ONTARIO REGULATION 11/21 
+155,Wellington-Dufferin-Guelph Public Health,2266,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-156,Wellington-Dufferin-Guelph Public Health,2266,Title-Control,"Red – Control 
+156,Wellington-Dufferin-Guelph Public Health,2266,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-03-14
-157,Windsor-Essex County Health Unit,2268,Title-Prevent,"Green – Prevent 
+157,Windsor-Essex County Health Unit,2268,Prevent,"Green – Prevent 
 1) Focus on education and awareness of public health and workplace safety measures in place. 
  2) Restrictions reflect broadest allowance of activities in Stage 3 absent a widely available vaccine or treatment. 
  3) Highest risk settings remain closed.",Public health measures and advice,Prevent,2020-11-07,2020-11-15
-158,Windsor-Essex County Health Unit,2268,Title-Protect,"""Yellow – Protect 
+158,Windsor-Essex County Health Unit,2268,Protect,"""Yellow – Protect 
  1) Enhanced targeted enforcement, fines and enhanced education to limit further transmission. 
  2) Apply public health measures in high risk settings.""",Public health measures and advice,Protect,2020-11-16,2020-11-22
-159,Windsor-Essex County Health Unit,2268,Title-Restrict,"Orange – Restrict 
+159,Windsor-Essex County Health Unit,2268,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-23,2020-11-29
-160,Windsor-Essex County Health Unit,2268,Title-Control,"Red – Control 
+160,Windsor-Essex County Health Unit,2268,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-11-30,2020-12-13
-161,Windsor-Essex County Health Unit,2268,Title-Lockdown,"Grey – Lockdown 
+161,Windsor-Essex County Health Unit,2268,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2020-12-14,2020-12-25
-162,Windsor-Essex County Health Unit,2268,Title-Lockdown,"ONTARIO REGULATION 11/21 
+162,Windsor-Essex County Health Unit,2268,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-15
-163,Windsor-Essex County Health Unit,2268,Title-Control,"Red – Control 
+163,Windsor-Essex County Health Unit,2268,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-16,2021-03-14
-164,York Region Public Health Services,2270,Title-Restrict,"Orange – Restrict 
+164,York Region Public Health Services,2270,Restrict,"Orange – Restrict 
  1) Implement enhanced measures, restrictions and enforcement avoiding any closures.",Public health measures and advice,Restrict,2020-11-07,2020-11-15
-165,York Region Public Health Services,2270,Title-Control,"Red – Control 
+165,York Region Public Health Services,2270,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2020-11-16,2020-12-13
-166,York Region Public Health Services,2270,Title-Lockdown,"Grey – Lockdown 
+166,York Region Public Health Services,2270,Lockdown,"Grey – Lockdown 
  1) Implement widescale measures and restrictions, including closures, to halt or interrupt transmission. 
  2) Consider declaration of emergency.",Public health measures and advice,Lockdown,2020-12-14,2020-12-25
-167,York Region Public Health Services,2270,Title-Lockdown,"ONTARIO REGULATION 11/21 
+167,York Region Public Health Services,2270,Lockdown,"ONTARIO REGULATION 11/21 
  made under the EMERGENCY MANAGEMENT AND CIVIL PROTECTION ACT",Public health measures and advice,Stay-at-home,2020-12-26,2021-02-21
-168,York Region Public Health Services,2270,Title-Control,"Red – Control 
+168,York Region Public Health Services,2270,Control,"Red – Control 
  1) Implement broader-scale measures and restrictions, across multiple sectors, to control transmission. 
  2) Restrictions are the most severe available before widescale business or organizational closure.",Public health measures and advice,Control,2021-02-22,2021-03-14
