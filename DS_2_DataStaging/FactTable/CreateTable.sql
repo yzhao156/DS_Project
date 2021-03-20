@@ -3,6 +3,7 @@
 
 
 create table Covid19_Tracking_Fact_Table(
+Id int,
 Onset_date_key int,
 Reported_date_key int,
 Test_date_key int,
@@ -26,4 +27,4 @@ foreign key  (Mobility_key) references Mobility_dimension(surrogate_key),
 foreign key  (Weather_key) references Weather_dimension(surrogate_key)
 );
 
-\COPY Covid19_Tracking_Fact_Table FROM '/Users/yi/Desktop/DS_Phase2/FactTable/Covid19_Tracking_Fact_Table.csv' DELIMITER ',' CSV HEADER;
+\COPY Covid19_Tracking_Fact_Table FROM '/Users/yi/Desktop/DS_Project/DS_2_DataStaging/FactTable/Covid19_Tracking_Fact_Table.csv' DELIMITER ',' CSV HEADER;

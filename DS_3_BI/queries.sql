@@ -2,7 +2,7 @@ select * from covid19_tracking_fact_table
 -- ？？？a.2 1.3 几个query
 
 -- a.1: Each day's case in 2020.11    TODO->count to sum
-SELECT D.day_of_month AS day, COUNT(F.Resolved) AS cases
+SELECT D.day_of_month AS day, COUNT(F.id) AS cases
 FROM covid19_tracking_fact_table F, date_dimension D
 WHERE F.reported_date_key = D.surrogate_key AND
 	D.year = 2020 AND
@@ -12,7 +12,7 @@ ORDER BY D.day_of_month ASC
 
 
 -- a.2: ？？？
-SELECT D.day_of_month AS day, COUNT(F.Resolved) AS cases
+SELECT D.day_of_month AS day, COUNT(F.id) AS cases
 FROM covid19_tracking_fact_table F, date_dimension D
 WHERE F.reported_date_key = D.surrogate_key AND
 	D.year = 2020 AND

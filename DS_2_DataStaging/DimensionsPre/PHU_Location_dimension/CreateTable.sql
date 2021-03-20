@@ -16,4 +16,4 @@ primary key (surrogate_key)
 
 
 
-\COPY PHU_Location_dimension FROM '/Users/yi/Desktop/DS_Phase2/DimensionsPre/PHU_Location_dimension/PHU_Location_dimension.csv' DELIMITER ',' CSV HEADER;
+\COPY PHU_Location_dimension FROM '/Users/yi/Desktop/DS_Project/DS_2_DataStaging/DimensionsPre/PHU_Location_dimension/PHU_Location_dimension.csv' DELIMITER ',' CSV HEADER;
