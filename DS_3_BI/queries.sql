@@ -10,6 +10,17 @@ WHERE F.reported_date_key = D.surrogate_key AND
 GROUP BY D.date
 ORDER BY D.date ASC
 
+--OR
+
+SELECT D.date AS day, d.month as month, COUNT(*) AS cases
+FROM covid19_tracking_fact_table F, date_dimension D
+WHERE F.reported_date_key = D.surrogate_key AND
+	D.year = 2020 AND
+	D.Month = 11
+GROUP BY GROUPING SETS((D.month),(D.date))
+ORDER BY D.month, D.date 
+
+
 
 -- a.2: ？？？
 SELECT D.date AS day, COUNT(*) AS cases
@@ -21,6 +32,16 @@ WHERE F.reported_date_key = D.surrogate_key AND
 GROUP BY D.date
 ORDER BY D.date ASC
 
+--OR
+
+SELECT D.date AS day, D.week as week, COUNT(*) AS cases
+FROM covid19_tracking_fact_table F, date_dimension D
+WHERE F.reported_date_key = D.surrogate_key AND
+	D.year = 2020 AND
+	D.month = 11 AND
+	D.week =44
+GROUP BY GROUPING SETS ((D.date),(D.week))
+ORDER BY D.date ASC
 
 -- b.1
 SELECT P.Reporting_PHU AS day, SUM(*) as resolved, SUM(F.unresolved) as unresolved, SUM(F.fatal) as fatal
