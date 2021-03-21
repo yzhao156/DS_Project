@@ -77,6 +77,32 @@ WHERE F.reported_date_key = D.surrogate_key AND
 GROUP BY (D.month, L.reporting_phu_city)
 ORDER BY D.month
 
+-- c.2
+
+
+SELECT L.reporting_phu_city,
+	(case when M.parks_percent_change_from_baseline>41 then true else false end) as park,
+	(case when M.transit_stations_percent_change_from_baseline>-54 then true else false end) as transit,
+	SUM(F.unresolved) AS unsolved_cases
+FROM covid19_tracking_fact_table F, 
+	mobility_dimension M, 
+	phu_location_dimension L
+WHERE F.mobility_key = M.surrogate_key AND
+	F.PHU_location_key = L.surrogate_key AND
+	(L.reporting_phu_city = 'Oakville' OR L.reporting_phu_city = 'Ottawa') 
+group by (park, transit, L.reporting_phu_city)
+ORDER BY L.reporting_phu_city
+
+--AUXS
+select avg(parks_percent_change_from_baseline) as park,
+avg(transit_stations_percent_change_from_baseline) as transit 
+from mobility_dimension
+--41,-54
+
+select (case when parks_percent_change_from_baseline>41 then true else false end) as park,
+(case when transit_stations_percent_change_from_baseline>-54 then true else false end) as transit
+from mobility_dimension
+group by (park, transit)
 
 
 
