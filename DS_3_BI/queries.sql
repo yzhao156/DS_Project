@@ -44,14 +44,14 @@ GROUP BY GROUPING SETS ((D.date),(D.week))
 ORDER BY D.date ASC
 
 -- b.1
-SELECT P.Reporting_PHU AS day, SUM(*) as resolved, SUM(F.unresolved) as unresolved, SUM(F.fatal) as fatal
+SELECT P.Reporting_PHU AS phu, SUM(F.resolved) as resolved, SUM(F.unresolved) as unresolved, SUM(F.fatal) as fatal
 FROM covid19_tracking_fact_table F, phu_location_dimension P
 WHERE F.PHU_location_key = P.surrogate_key 
 GROUP BY (P.Reporting_PHU)
 
 
 -- b.2
-SELECT P.Reporting_PHU AS day, SUM(*) as resolved, SUM(F.unresolved) as unresolved, SUM(F.fatal) as fatal
+SELECT P.Reporting_PHU AS day, SUM(F.resolved) as resolved, SUM(F.unresolved) as unresolved, SUM(F.fatal) as fatal
 FROM covid19_tracking_fact_table F,
 	phu_location_dimension P,
 	special_measures_dimension S
@@ -107,7 +107,94 @@ group by (park, transit)
 
 
 
+-- d.1 weather
 
+SELECT W.totalsnowflag AS snow,
+	(case when M.parks_percent_change_from_baseline>41 then true else false end) as park,
+	(case when M.transit_stations_percent_change_from_baseline>-54 then true else false end) as transit,
+	COUNT(*) AS cases
+FROM covid19_tracking_fact_table F, 
+	mobility_dimension M, 
+	weather_dimension W
+WHERE F.mobility_key = M.surrogate_key AND
+	F.weather_key = W.surrogate_key 
+group by GROUPING SETS((park, transit, W.totalsnowflag),(snow))
+ORDER BY snow DESC
+
+
+-- d.2 date
+SELECT MAX(D.year) AS year, D.month AS month, COUNT(*) AS cases
+FROM covid19_tracking_fact_table F, date_dimension D
+WHERE F.reported_date_key = D.surrogate_key 
+GROUP BY D.month
+ORDER BY year, D.month ASC
+
+-- d.3 
+
+SELECT S.title AS title, CASE WHEN P.reporting_phu_city='Ottawa' THEN 'Ottawa' else 'Toronto' END AS city, SUM(F.resolved) as resolved, SUM(F.unresolved) as unresolved, SUM(F.fatal) as fatal
+FROM covid19_tracking_fact_table F,
+	phu_location_dimension P,
+	special_measures_dimension S
+WHERE F.PHU_location_key = P.surrogate_key AND
+	F.special_measure_key = S.surrogate_key 
+GROUP BY (S.title, city)
+ORDER BY city, title
+
+-- or
+
+SELECT S.title AS title, P.reporting_phu_city AS city, SUM(F.resolved) as resolved, SUM(F.unresolved) as unresolved, SUM(F.fatal) as fatal
+FROM covid19_tracking_fact_table F,
+	phu_location_dimension P,
+	special_measures_dimension S
+WHERE F.PHU_location_key = P.surrogate_key AND
+	F.special_measure_key = S.surrogate_key 
+GROUP BY (S.title,P.reporting_phu_city)
+ORDER BY title
+
+
+
+---------------------------------------------------------------
+
+-- Part2.1
+SELECT  D.date AS day, COUNT(*) AS cases
+FROM covid19_tracking_fact_table F, date_dimension D
+WHERE F.reported_date_key = D.surrogate_key 
+GROUP BY (d.date)
+LIMIT  10
+
+-- Part2.2
+SELECT DISTINCT P.Reporting_PHU, 
+	D.date,
+	SUM(F.resolved+F.unresolved+F.fatal) OVER (PARTITION BY P.Reporting_PHU,D.week) AS week,
+	SUM(F.resolved+F.unresolved+F.fatal) OVER (PARTITION BY P.Reporting_PHU,D.month) AS month,
+	SUM(F.resolved+F.unresolved+F.fatal) OVER (PARTITION BY P.Reporting_PHU) AS total
+FROM covid19_tracking_fact_table F,
+	phu_location_dimension P,
+	date_dimension D
+WHERE F.reported_date_key = D.surrogate_key AND
+	F.PHU_location_key = P.surrogate_key
+ORDER BY week DESC
+
+
+-- Part2.3
+
+
+SELECT D.date, P.Reporting_PHU AS phu, SUM(F.resolved+F.unresolved+F.fatal) OVER W as cases
+FROM covid19_tracking_fact_table F, phu_location_dimension P, date_dimension D
+WHERE F.reported_date_key = D.surrogate_key AND
+	F.PHU_location_key = P.surrogate_key AND
+	P.reporting_phu_city = 'Ottawa'
+WINDOW W AS (PARTITION BY DATE(D.date) 
+ORDER BY DATE(D.date) 
+RANGE BETWEEN INTERVAL '1' MONTH PRECEDING AND INTERVAL '1' MONTH FOLLOWING)
+
+-- or
+
+select datetime, AVG(totalsnowincm) OVER W
+from weather_dimension
+WINDOW W AS (
+	ORDER BY DATE(datetime) 
+	RANGE BETWEEN INTERVAL '1' MONTH PRECEDING AND INTERVAL '1' MONTH FOLLOWING)
 
 
 
