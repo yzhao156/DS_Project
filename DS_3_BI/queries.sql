@@ -63,6 +63,19 @@ GROUP BY (P.Reporting_PHU)
 
 
 
+-- c.1
+SELECT D.month as month, L.reporting_phu_city as city, SUM(F.fatal) AS fatal_cases
+FROM covid19_tracking_fact_table F, 
+	date_dimension D, 
+	phu_location_dimension L
+WHERE F.reported_date_key = D.surrogate_key AND
+	F.PHU_location_key = L.surrogate_key AND
+	(D.month=11 OR D.month=12) AND
+	D.year=2020 AND
+	(L.reporting_phu_city = 'Oakville' OR L.reporting_phu_city = 'Ottawa') AND
+	F.fatal = 1
+GROUP BY (D.month, L.reporting_phu_city)
+ORDER BY D.month
 
 
 
