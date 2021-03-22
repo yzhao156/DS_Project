@@ -160,6 +160,7 @@ SELECT  D.date AS day, COUNT(*) AS cases
 FROM covid19_tracking_fact_table F, date_dimension D
 WHERE F.reported_date_key = D.surrogate_key 
 GROUP BY (d.date)
+order by cases DESC
 LIMIT  10
 
 -- Part2.2
