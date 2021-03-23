@@ -118,7 +118,7 @@ ORDER BY title
 
 ---------------------------------------------------------------
 
--- Part2.1
+-- Part 2.2
 SELECT  D.date AS day, COUNT(*) AS cases
 FROM covid19_tracking_fact_table F, date_dimension D
 WHERE F.reported_date_key = D.surrogate_key 
@@ -127,12 +127,31 @@ order by cases DESC
 LIMIT  10
 
 -- Part2.2
+SELECT distinct P.Reporting_PHU, 
+	D.year,
+	D.month,
+	SUM(F.resolved+F.unresolved+F.fatal) AS total,
+	RANK() OVER(
+		PARTITION BY P.Reporting_PHU
+		ORDER BY SUM(F.resolved+F.unresolved+F.fatal) DESC
+	)
+FROM covid19_tracking_fact_table F,
+	phu_location_dimension P,
+	date_dimension D
+WHERE F.reported_date_key = D.surrogate_key AND
+	F.PHU_location_key = P.surrogate_key
+GROUP BY ( P.Reporting_PHU, D.month, D.year)
+ORDER BY P.Reporting_PHU, D.year, D.month ASC
+
+
+--OR
+-- over weeks and month and total
 SELECT DISTINCT P.Reporting_PHU, 
 	D.date,
 	SUM(F.resolved+F.unresolved+F.fatal) OVER (PARTITION BY P.Reporting_PHU,D.week) AS week,
 	SUM(F.resolved+F.unresolved+F.fatal) OVER (PARTITION BY P.Reporting_PHU,D.month) AS month,
 	SUM(F.resolved+F.unresolved+F.fatal) OVER (PARTITION BY P.Reporting_PHU) AS total
-FROM covid19_tracking_fact_table F,
+	FROM covid19_tracking_fact_table F,
 	phu_location_dimension P,
 	date_dimension D
 WHERE F.reported_date_key = D.surrogate_key AND
@@ -143,7 +162,7 @@ ORDER BY week DESC
 -- Part2.3
 
 
-SELECT D.date, P.Reporting_PHU AS phu, SUM(F.resolved+F.unresolved+F.fatal) OVER W as cases
+SELECT DISTINCT D.date, P.Reporting_PHU AS phu, SUM(F.resolved+F.unresolved+F.fatal) OVER W as cases
 FROM covid19_tracking_fact_table F, phu_location_dimension P, date_dimension D
 WHERE F.reported_date_key = D.surrogate_key AND
 	F.PHU_location_key = P.surrogate_key AND
@@ -151,6 +170,7 @@ WHERE F.reported_date_key = D.surrogate_key AND
 WINDOW W AS (PARTITION BY DATE(D.date) 
 ORDER BY DATE(D.date) 
 RANGE BETWEEN INTERVAL '1' MONTH PRECEDING AND INTERVAL '1' MONTH FOLLOWING)
+ORDER BY D.date
 
 -- or
 
@@ -160,41 +180,5 @@ WINDOW W AS (
 	ORDER BY DATE(datetime) 
 	RANGE BETWEEN INTERVAL '1' MONTH PRECEDING AND INTERVAL '1' MONTH FOLLOWING
 )
-
-
-
-
-SELECT D.date, D.day_of_month AS day, S.title as special_measure, COUNT(*) AS cases
-FROM covid19_tracking_fact_table F, 
-	date_dimension D, 
-	phu_location_dimension L,
-	weather_dimension W,
-	mobility_dimension M,
-	special_measures_dimension S,
-	patient_dimension P
-WHERE F.reported_date_key = D.surrogate_key AND
-	F.PHU_location_key = L.surrogate_key AND
-	F.special_measure_key = S.surrogate_key AND
-	F.mobility_key = M.surrogate_key AND
-	F.weather_key = W.surrogate_key AND
-	F.patient_key = P.surrogate_key AND
-	D.year = 2020 AND
-	D.Month = 11
-GROUP BY (D.day_of_month, S.title, D.date)
-ORDER BY D.day_of_month ASC
-
-
--- PART3
-
-
-SELECT D.date as date, L.reporting_phu_city as city, SUM(F.resolved) as resolved, SUM(F.unresolved) as unresolved, SUM(F.fatal) as fatal
-FROM covid19_tracking_fact_table F, 
-	date_dimension D, 
-	phu_location_dimension L
-WHERE F.reported_date_key = D.surrogate_key AND
-	F.PHU_location_key = L.surrogate_key AND
-	L.reporting_phu_city = 'Ottawa' 
-GROUP BY D.date,city
-ORDER BY D.date
 
 
