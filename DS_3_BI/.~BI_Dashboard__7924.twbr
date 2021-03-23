@@ -2273,7 +2273,7 @@ ORDER BY D.date</relation>
       <_.fcp.ObjectModelTableType.true...column caption='he ranking of the PHUs in terms of the number of cases per week' datatype='table' name='[__tableau_internal_object_id__].[_2FB17329D0FE4BCCA9016DE1189DFAD4]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='c1DiceMonthFatal' datatype='table' name='[__tableau_internal_object_id__].[_36E6992780B9441ABE445314EF2A9A26]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='Top' datatype='table' name='[__tableau_internal_object_id__].[_4F868405228F4915858CE33E863DDE08]' role='measure' type='quantitative' />
-      <_.fcp.ObjectModelTableType.true...column caption='Custom SQL Query7' datatype='table' name='[__tableau_internal_object_id__].[_5177FBA02F7240E2B1C45A36EEF99BA7]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='moth' datatype='table' name='[__tableau_internal_object_id__].[_5177FBA02F7240E2B1C45A36EEF99BA7]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='mobility' datatype='table' name='[__tableau_internal_object_id__].[_56DAAAD4E65148EBAB8587A454C0F58A]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='date' datatype='table' name='[__tableau_internal_object_id__].[_5C841C0BFCC941F6B18EC39365EC00C8]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='ottawa' datatype='table' name='[__tableau_internal_object_id__].[_80E3E12A3E9743A1931C6D55C99D1E15]' role='measure' type='quantitative' />
@@ -2564,7 +2564,7 @@ order by cases DESC
 LIMIT  5</relation>
             </properties>
           </object>
-          <object caption='Custom SQL Query7' id='_5177FBA02F7240E2B1C45A36EEF99BA7'>
+          <object caption='moth' id='_5177FBA02F7240E2B1C45A36EEF99BA7'>
             <properties context=''>
               <relation connection='postgres.0ffuoru0acmxlv130i6b11iycrbw' name='Custom SQL Query7' type='text'>SELECT MAX(D.year) AS year, D.month AS month, COUNT(*) AS cases
 FROM covid19_tracking_fact_table F, date_dimension D
@@ -2688,7 +2688,7 @@ ORDER BY title</relation>
           <relationship>
             <expression op='='>
               <expression op='[cases]' />
-              <expression op='[fatal (Custom SQL Query7)]' />
+              <expression op='[month (Custom SQL Query7)]' />
             </expression>
             <first-end-point object-id='_DF28B2B6E0514B04B57495896417A6F3' />
             <second-end-point object-id='_5177FBA02F7240E2B1C45A36EEF99BA7' />
@@ -3811,7 +3811,7 @@ ORDER BY title</relation>
       </viewpoint>
       <simple-id uuid='{97EF9C87-0FBD-429A-A53A-8B5D242A2F6F}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='age'>
           <zoom type='entire-view' />
@@ -3849,7 +3849,7 @@ ORDER BY title</relation>
       <active id='-1' />
       <simple-id uuid='{CB62EBD7-B22F-4E42-83A4-D55607407361}' />
     </window>
-    <window class='worksheet' name='ottawa'>
+    <window class='worksheet' maximized='true' name='ottawa'>
       <cards>
         <edge name='left'>
           <strip size='160'>

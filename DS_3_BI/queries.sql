@@ -87,22 +87,17 @@ group by (park, transit)
 
 
 
--- d.1 weather
-
+-- 1.d.1 rain and snow
 SELECT W.totalsnowflag AS snow,
-	(case when M.parks_percent_change_from_baseline>41 then true else false end) as park,
-	(case when M.transit_stations_percent_change_from_baseline>-54 then true else false end) as transit,
+	W.totalrainflag AS rain,
 	COUNT(*) AS cases
 FROM covid19_tracking_fact_table F, 
-	mobility_dimension M, 
 	weather_dimension W
-WHERE F.mobility_key = M.surrogate_key AND
-	F.weather_key = W.surrogate_key 
-group by GROUPING SETS((park, transit, W.totalsnowflag),(snow))
-ORDER BY snow DESC
+WHERE F.weather_key = W.surrogate_key AND
+group by GROUPING SETS((rain),(snow))
+ORDER BY snow,rain DESC
 
-
--- d.2 date
+-- 1.d.2 date
 SELECT MAX(D.year) AS year, D.month AS month, COUNT(*) AS cases
 FROM covid19_tracking_fact_table F, date_dimension D
 WHERE F.reported_date_key = D.surrogate_key 
