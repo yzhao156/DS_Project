@@ -161,7 +161,14 @@ ORDER BY week DESC
 
 -- Part2.3
 
+select datetime, AVG(totalsnowincm) OVER W
+from weather_dimension
+WINDOW W AS (
+	ORDER BY DATE(datetime) 
+	RANGE BETWEEN INTERVAL '1' MONTH PRECEDING AND INTERVAL '1' MONTH FOLLOWING
+)
 
+--Or
 SELECT DISTINCT D.date, P.Reporting_PHU AS phu, SUM(F.resolved+F.unresolved+F.fatal) OVER W as cases
 FROM covid19_tracking_fact_table F, phu_location_dimension P, date_dimension D
 WHERE F.reported_date_key = D.surrogate_key AND
@@ -172,13 +179,6 @@ ORDER BY DATE(D.date)
 RANGE BETWEEN INTERVAL '1' MONTH PRECEDING AND INTERVAL '1' MONTH FOLLOWING)
 ORDER BY D.date
 
--- or
 
-select datetime, AVG(totalsnowincm) OVER W
-from weather_dimension
-WINDOW W AS (
-	ORDER BY DATE(datetime) 
-	RANGE BETWEEN INTERVAL '1' MONTH PRECEDING AND INTERVAL '1' MONTH FOLLOWING
-)
 
 
